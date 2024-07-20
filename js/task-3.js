@@ -3,7 +3,7 @@ function checkForSpam(message) {
 
     const check = messageLow.includes(spam || sale);
     if (check === true) { return (true); }
-    else { return (false) }
+    else { return (false); }
 
 }
 console.log(checkForSpam("Latest technology news")); // false
